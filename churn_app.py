@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load("rf_model.pkl")
+model = joblib.load("C:/Users/hp/OneDrive/Desktop/churn_app/rf_model.pkl")
 
 st.title("💼 Bank Customer Churn Prediction")
 st.write("Enter customer details below:")
